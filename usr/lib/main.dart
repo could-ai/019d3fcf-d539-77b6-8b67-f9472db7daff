@@ -138,7 +138,7 @@ class LandingPage extends StatelessWidget {
             textAlign: isDesktop ? TextAlign.center : TextAlign.left,
             style: const TextStyle(
               fontSize: 20,
-              color: Colors.whiteFaded,
+              color: Colors.white70, // Fixed: Changed from Colors.whiteFaded to Colors.white70
               height: 1.5,
             ),
           ),
@@ -216,8 +216,8 @@ class LandingPage extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: const Color(0xFFE1F5FE),
+            decoration: const BoxDecoration(
+              color: Color(0xFFE1F5FE),
               shape: BoxShape.circle,
             ),
             child: Icon(icon, size: 48, color: const Color(0xFF0288D1)),
